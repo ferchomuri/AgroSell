@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "119783059532",
+    "project_id": "agro-trade-c42b4",
+    "storage_bucket": "agro-trade-c42b4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:119783059532:android:b50eb135357e48f6a0c4e9",
+        "android_client_info": {
+          "package_name": "com.example.flutter_advanced_boilerplate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "119783059532-5ep33raaf5abkinavfhmh8i5q9br8sie.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWU7b4-hUmnT9KARdZJ96MkEM2wRwyKmc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "119783059532-5ep33raaf5abkinavfhmh8i5q9br8sie.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
