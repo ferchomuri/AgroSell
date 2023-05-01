@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_advanced_boilerplate/features/informations/widgets/grid_item.dart';
-import 'package:flutter_advanced_boilerplate/features/informations/widgets/link_card.dart';
-import 'package:flutter_advanced_boilerplate/features/informations/widgets/text_divider.dart';
-import 'package:flutter_advanced_boilerplate/i18n/strings.g.dart';
+import 'package:agrosell/features/informations/widgets/grid_item.dart';
+import 'package:agrosell/features/informations/widgets/link_card.dart';
+import 'package:agrosell/features/informations/widgets/text_divider.dart';
+import 'package:agrosell/i18n/strings.g.dart';
 import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';
 
 class InformationsScreen extends StatelessWidget {
@@ -20,7 +20,7 @@ class InformationsScreen extends StatelessWidget {
             title: context.t.informations.github_repository_title,
             icon: MdiIcons.github,
             url: Uri.parse(
-              'https://github.com/fikretsengul/flutter_advanced_boilerplate',
+              'https://github.com/fikretsengul/agrosell',
             ),
           ),
           TextDivider(text: context.t.informations.author_divider_title),

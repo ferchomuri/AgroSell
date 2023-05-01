@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_advanced_boilerplate/features/features/widgets/components/theme_customizer.dart';
-import 'package:flutter_advanced_boilerplate/features/features/widgets/features_list.dart';
-import 'package:flutter_advanced_boilerplate/i18n/strings.g.dart';
-import 'package:flutter_advanced_boilerplate/utils/methods/shortcuts.dart';
+import 'package:agrosell/features/features/widgets/components/theme_customizer.dart';
+import 'package:agrosell/features/features/widgets/features_list.dart';
+import 'package:agrosell/i18n/strings.g.dart';
+import 'package:agrosell/utils/methods/shortcuts.dart';
 import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';
 
 class FeaturesScreen extends StatelessWidget {
@@ -26,7 +26,9 @@ class FeaturesScreen extends StatelessWidget {
                 const SizedBox(width: 16),
                 Text(
                   context.t.features.use_turkish,
-                  style: getTextTheme(context).titleSmall!.apply(fontWeightDelta: 2),
+                  style: getTextTheme(context)
+                      .titleSmall!
+                      .apply(fontWeightDelta: 2),
                 ),
               ],
             ),

@@ -1,11 +1,11 @@
 import 'package:bloc_test/bloc_test.dart';
-import 'package:flutter_advanced_boilerplate/features/app/models/alert_model.dart';
-import 'package:flutter_advanced_boilerplate/features/app/models/user_model.dart';
-import 'package:flutter_advanced_boilerplate/features/auth/login/blocs/auth_cubit.dart';
-import 'package:flutter_advanced_boilerplate/features/auth/login/form/login_form.dart';
-import 'package:flutter_advanced_boilerplate/features/auth/login/presentation/login_screen.dart';
-import 'package:flutter_advanced_boilerplate/i18n/strings.g.dart';
-import 'package:flutter_advanced_boilerplate/modules/dependency_injection/di.dart';
+import 'package:agrosell/features/app/models/alert_model.dart';
+import 'package:agrosell/features/app/models/user_model.dart';
+import 'package:agrosell/features/auth/login/blocs/auth_cubit.dart';
+import 'package:agrosell/features/auth/login/form/login_form.dart';
+import 'package:agrosell/features/auth/login/presentation/login_screen.dart';
+import 'package:agrosell/i18n/strings.g.dart';
+import 'package:agrosell/modules/dependency_injection/di.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 import '../../../../utils/golden_utils.dart';

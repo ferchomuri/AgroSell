@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_advanced_boilerplate/features/auth/login/blocs/auth_cubit.dart';
-import 'package:flutter_advanced_boilerplate/features/features/features_screen.dart';
-import 'package:flutter_advanced_boilerplate/features/informations/informations_screen.dart';
-import 'package:flutter_advanced_boilerplate/i18n/strings.g.dart';
-import 'package:flutter_advanced_boilerplate/modules/dependency_injection/di.dart';
+import 'package:agrosell/features/auth/login/blocs/auth_cubit.dart';
+import 'package:agrosell/features/features/features_screen.dart';
+import 'package:agrosell/features/informations/informations_screen.dart';
+import 'package:agrosell/i18n/strings.g.dart';
+import 'package:agrosell/modules/dependency_injection/di.dart';
 import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';
 
 final $constants = Constants();
@@ -67,13 +67,22 @@ class _Insets {
 @immutable
 class _Shadows {
   final textSoft = [
-    Shadow(color: Colors.black.withOpacity(0.25), offset: const Offset(0, 2), blurRadius: 4),
+    Shadow(
+        color: Colors.black.withOpacity(0.25),
+        offset: const Offset(0, 2),
+        blurRadius: 4),
   ];
   final text = [
-    Shadow(color: Colors.black.withOpacity(0.6), offset: const Offset(0, 2), blurRadius: 2),
+    Shadow(
+        color: Colors.black.withOpacity(0.6),
+        offset: const Offset(0, 2),
+        blurRadius: 2),
   ];
   final textStrong = [
-    Shadow(color: Colors.black.withOpacity(0.6), offset: const Offset(0, 4), blurRadius: 6),
+    Shadow(
+        color: Colors.black.withOpacity(0.6),
+        offset: const Offset(0, 4),
+        blurRadius: 6),
   ];
 }
 

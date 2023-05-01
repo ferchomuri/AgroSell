@@ -1,4 +1,4 @@
-name: flutter_advanced_boilerplate
+name: agrosell
 description: A new advanced flutter boilerplate project uses BLoC.
 
 # The following line prevents the package from being accidentally published to
@@ -110,6 +110,7 @@ dev_dependencies:
   slang_flutter: ^3.3.0
   slang_build_runner: ^3.3.0
   r_resources: ^1.0.1
+  change_app_package_name: ^1.1.0
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec

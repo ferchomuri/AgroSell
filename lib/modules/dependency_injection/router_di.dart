@@ -1,4 +1,4 @@
-import 'package:flutter_advanced_boilerplate/utils/router.gr.dart';
+import 'package:agrosell/utils/router.gr.dart';
 import 'package:injectable/injectable.dart';
 
 @module
