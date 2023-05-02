@@ -47,29 +47,29 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyCqz0H6864WRNQwZ-IPCyM8L_7AyhUh5Go',
-    appId: '1:119783059532:web:ba048f340eadb4fea0c4e9',
-    messagingSenderId: '119783059532',
-    projectId: 'agro-trade-c42b4',
-    authDomain: 'agro-trade-c42b4.firebaseapp.com',
-    storageBucket: 'agro-trade-c42b4.appspot.com',
+    apiKey: 'AIzaSyAApte-ftj--HLa3MOr2TP4aqe481UGRMQ',
+    appId: '1:519482028064:web:130bdc6248201d1928cc45',
+    messagingSenderId: '519482028064',
+    projectId: 'agrosell-ea91c',
+    authDomain: 'agrosell-ea91c.firebaseapp.com',
+    storageBucket: 'agrosell-ea91c.appspot.com',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyAWU7b4-hUmnT9KARdZJ96MkEM2wRwyKmc',
-    appId: '1:119783059532:android:b50eb135357e48f6a0c4e9',
-    messagingSenderId: '119783059532',
-    projectId: 'agro-trade-c42b4',
-    storageBucket: 'agro-trade-c42b4.appspot.com',
+    apiKey: 'AIzaSyBJE9CgbjerQ_cQAbeAeXphqINkSsCEvVc',
+    appId: '1:519482028064:android:b3bb04d5d8c44f3b28cc45',
+    messagingSenderId: '519482028064',
+    projectId: 'agrosell-ea91c',
+    storageBucket: 'agrosell-ea91c.appspot.com',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyBY8IylWdWedmSKTYpvLdz4PVs38LLGsVM',
-    appId: '1:119783059532:ios:54364a133993d142a0c4e9',
-    messagingSenderId: '119783059532',
-    projectId: 'agro-trade-c42b4',
-    storageBucket: 'agro-trade-c42b4.appspot.com',
-    iosClientId: '119783059532-e10tv427nn687eri3rufhqv8sen0h52a.apps.googleusercontent.com',
+    apiKey: 'AIzaSyDLqecsByd7g940BxQXrG5Y6CsRHk4LeE4',
+    appId: '1:519482028064:ios:e47cd30d1740515928cc45',
+    messagingSenderId: '519482028064',
+    projectId: 'agrosell-ea91c',
+    storageBucket: 'agrosell-ea91c.appspot.com',
+    iosClientId: '519482028064-08un4qd4fiqgm6hdpqukiu3auctrkrlj.apps.googleusercontent.com',
     iosBundleId: 'com.example.flutterAdvancedBoilerplate',
   );
 }

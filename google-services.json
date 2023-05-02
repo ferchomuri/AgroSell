@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "519482028064",
+    "project_id": "agrosell-ea91c",
+    "storage_bucket": "agrosell-ea91c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:519482028064:android:b3bb04d5d8c44f3b28cc45",
+        "android_client_info": {
+          "package_name": "com.muri.agrosell"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "519482028064-9aa42djb0qmnmk9ogcvpb1c7ko6muntt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.muri.agrosell",
+            "certificate_hash": "3b25e53cd38717bc45a7a8af386670821be2c8b4"
+          }
+        },
+        {
+          "client_id": "519482028064-0v27o26ar7lo6ubm481va7gdn771712q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJE9CgbjerQ_cQAbeAeXphqINkSsCEvVc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "519482028064-0v27o26ar7lo6ubm481va7gdn771712q.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "519482028064-08un4qd4fiqgm6hdpqukiu3auctrkrlj.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.flutterAdvancedBoilerplate"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

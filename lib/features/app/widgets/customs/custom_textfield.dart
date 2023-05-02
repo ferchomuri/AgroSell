@@ -100,21 +100,24 @@ class _CustomTextFieldState extends State<CustomTextField> {
     return InputDecoration(
       disabledBorder: UnderlineInputBorder(
         borderRadius: BorderRadius.all(
-            Radius.circular($constants.theme.defaultBorderRadius)),
+          Radius.circular($constants.theme.defaultBorderRadius),
+        ),
         borderSide: const BorderSide(
           style: BorderStyle.none,
         ),
       ),
       enabledBorder: UnderlineInputBorder(
         borderRadius: BorderRadius.all(
-            Radius.circular($constants.theme.defaultBorderRadius)),
+          Radius.circular($constants.theme.defaultBorderRadius),
+        ),
         borderSide: const BorderSide(
           style: BorderStyle.none,
         ),
       ),
       errorBorder: UnderlineInputBorder(
         borderRadius: BorderRadius.all(
-            Radius.circular($constants.theme.defaultBorderRadius)),
+          Radius.circular($constants.theme.defaultBorderRadius),
+        ),
         borderSide: BorderSide(
           color: $constants.palette.red.withOpacity(0.3),
           width: 4,
@@ -122,7 +125,8 @@ class _CustomTextFieldState extends State<CustomTextField> {
       ),
       focusedErrorBorder: UnderlineInputBorder(
         borderRadius: BorderRadius.all(
-            Radius.circular($constants.theme.defaultBorderRadius)),
+          Radius.circular($constants.theme.defaultBorderRadius),
+        ),
         borderSide: BorderSide(
           color: $constants.palette.red.withOpacity(0.3),
           width: 4,
@@ -130,7 +134,8 @@ class _CustomTextFieldState extends State<CustomTextField> {
       ),
       focusedBorder: UnderlineInputBorder(
         borderRadius: BorderRadius.all(
-            Radius.circular($constants.theme.defaultBorderRadius)),
+          Radius.circular($constants.theme.defaultBorderRadius),
+        ),
         borderSide: BorderSide(
           color: widget.isRequired && form.control(widget.formControlName).valid
               ? $constants.palette.green.withOpacity(0.5)
@@ -174,16 +179,17 @@ class _CustomTextFieldState extends State<CustomTextField> {
             decoration: BoxDecoration(
               border: Border.fromBorderSide(
                 BorderSide(
-                    color: getCustomOnPrimaryColor(context).withOpacity(0.2)),
+                  color: getCustomOnPrimaryColor(context).withOpacity(0.2),
+                ),
               ),
               borderRadius: const BorderRadius.all(Radius.circular(32)),
             ),
             child: StyledText(
               text: '<bold>$currentLength</bold>/$maxLength',
-              style: getTextTheme(context).caption,
+              style: getTextTheme(context).bodySmall,
               tags: {
                 'bold': StyledTextTag(
-                  style: getTextTheme(context).caption!.apply(
+                  style: getTextTheme(context).bodySmall!.apply(
                         fontWeightDelta: 1,
                         color: widget.minLength != null &&
                                 currentLength < widget.minLength!
@@ -229,12 +235,14 @@ class _CustomTextFieldState extends State<CustomTextField> {
                     validationMessages: {
                       ValidationMessage.minLength: (_) =>
                           Translations.of(context).core.errors.form.minLength(
-                              field: widget.labelText,
-                              count: widget.minLength.toString()),
+                                field: widget.labelText,
+                                count: widget.minLength.toString(),
+                              ),
                       ValidationMessage.maxLength: (_) =>
                           Translations.of(context).core.errors.form.maxLength(
-                              field: widget.labelText,
-                              count: widget.maxLength.toString()),
+                                field: widget.labelText,
+                                count: widget.maxLength.toString(),
+                              ),
                       ValidationMessage.required: (_) => context
                           .t.core.errors.form
                           .required(field: widget.labelText),
@@ -246,12 +254,17 @@ class _CustomTextFieldState extends State<CustomTextField> {
                     minLines: widget.minLines,
                     keyboardType: widget.keyboardType,
                     textCapitalization: widget.textCapitalization,
-                    buildCounter: (context,
-                        {required int currentLength,
-                        required bool isFocused,
-                        int? maxLength}) {
-                      return buildCounter(context,
-                          currentLength: currentLength, maxLength: maxLength);
+                    buildCounter: (
+                      context, {
+                      required int currentLength,
+                      required bool isFocused,
+                      int? maxLength,
+                    }) {
+                      return buildCounter(
+                        context,
+                        currentLength: currentLength,
+                        maxLength: maxLength,
+                      );
                     },
                     decoration: getTextFieldDecoration(form),
                     inputFormatters: widget.inputFormatters,
@@ -278,7 +291,7 @@ class _CustomTextFieldState extends State<CustomTextField> {
                               child: Text(
                                 widget.extraInfo,
                                 style: getTextTheme(context)
-                                    .caption!
+                                    .bodySmall!
                                     .copyWith(fontStyle: FontStyle.italic),
                               ),
                             ),
