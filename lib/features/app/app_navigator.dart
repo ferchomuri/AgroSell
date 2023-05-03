@@ -1,7 +1,7 @@
-import 'package:flutter/material.dart';
 import 'package:agrosell/features/app/blocs/app_cubit.dart';
 import 'package:agrosell/features/app/widgets/navigation/bottom_navigation.dart';
 import 'package:agrosell/utils/constants.dart';
+import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 class AppNavigator extends StatelessWidget {
